@@ -9,8 +9,7 @@ public class SimplePrograme1 {
 	}
 	private void add(int a,int b) {
 		int result=a+b;
-		System.out.println("addition result is:"+result);
-		
+		System.out.println("addition result is:"+result);		
 	}
 	public void sub(int a,int b) {
 		int result=a-b;
