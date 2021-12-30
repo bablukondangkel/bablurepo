@@ -1,6 +1,6 @@
 package com.practice;
 
-public class GreatestPrograme {
+	public class GreatestPrograme {
 	public static void main(String[] arg) {
 		int num1=23;
 		int num2=45;
