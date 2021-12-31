@@ -4,7 +4,7 @@ package com.practice;
 		public static void main(String[] arg) {
 			int costprice=100;
 			int kg=5;
-			int saleprice=120;
+			int saleprice=80;
 			int totalCost = kg*costprice; 
 			int totalSale=kg*saleprice;
 			if(totalSale > totalCost) {
