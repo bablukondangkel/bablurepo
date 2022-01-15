@@ -15,7 +15,7 @@ public class demo1 {
 	protected void bablu() {
 		System.out.println("bablu");
 		
-	PackageAdd obj=new PackageAdd();
+
 
 	}
 	

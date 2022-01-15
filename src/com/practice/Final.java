@@ -5,18 +5,11 @@ public class Final {
 		
 		PraticeJava a=new PraticeJava();
 		
-		a.sumsung();
-		a.micromax();
-		
+		String mobile="sumsung";
+		String mobile2="micromax";
+		System.out.println("print a:" +mobile+mobile2);
 	}
 	
-	void round() {
-		
-		PackageAdd obj = new PackageAdd();
-		
-		obj.saisuman();
-		
-		obj.display();
 		
 	}
  
@@ -27,4 +20,4 @@ public class Final {
 	
 	
 
-}
+
