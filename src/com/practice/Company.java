@@ -1,36 +1,17 @@
 package com.practice;
 
 public class Company {
+	Empolyee obj =new Empolyee();
 	
-	Empolyee obj=new Empolyee();
-	
+
+
 	public static void main(String[] args) {
-		Company company = new Company();
-		company.displayEmployeeId();
-		company.displayEmployeeName();
-		company.displayEmployeeAge();
-		company.displayEmployeeAddress();
+		Company obj1 =new Company();
+		System.out.println(obj1.obj.employeeId);
+		System.out.println(obj1.obj.empolyeeName);
+		System.out.println(obj1.obj.empolyeeAge);
+		System.out.println(obj1.obj.empolyeeAddress);
 	}
-	
-	public void displayEmployeeId() {
-		System.out.println(obj.employeeId);
-		
-	}
-	
-	public void displayEmployeeName() {
-		System.out.println(obj.empolyeeName);
-		
-	}
-	
-	public void displayEmployeeAge() {
-		System.out.println(obj.empolyeeAge);
-		
-	}
-	
-	public void displayEmployeeAddress() {
-		System.out.println(obj.empolyeeAddress);
-		
-	}
-	
+
 
 }
