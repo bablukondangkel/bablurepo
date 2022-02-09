@@ -8,13 +8,10 @@ package com.Practice2;
 		display.setStorage(56);
 		display.setcolour("Black");
 		display.setBrandname("Dell");
-		System.out.println(display.getSerialnumber());
+		System.out.println("my serial no is:"+display.getSerialnumber());
 		System.out.println(display.getRamsize());
 		System.out.println(display.getStorage());
 		System.out.println(display.getcolour());
-		
-		
-		
 			
 	}
 
