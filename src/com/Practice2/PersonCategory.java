@@ -2,9 +2,9 @@ package com.Practice2;
 
 	public class PersonCategory {
 		public static void main(String[] arg) {
-			int age=18;
+			int age=19;
 		
-		if(age<18) { 
+		if(age<=18) { 
 			System.out.println("person is child");
 			
 		}
