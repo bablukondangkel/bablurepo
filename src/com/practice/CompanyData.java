@@ -5,12 +5,12 @@ public class CompanyData {
 		EmpolyeeData display=new EmpolyeeData();
 		
 		display.setempolyeeId(1234);
-		display.setempolyeeName("Bablu");
-		display.setempolyeeSalary(2323);
-		display.setemployeeDesignation("Mech engg");
 		System.out.println(display.getempolyeeId());
+		display.setempolyeeName("Bablu");
 		System.out.println(display.getempolyeeName());
+		display.setempolyeeSalary(2323);
 		System.out.println(display.getempolyeeSalary());
+		display.setemployeeDesignation("Mech engg");
 		System.out.println(display.getemployeeDesignation());
 	}
 

@@ -2,9 +2,9 @@ package com.practice;
 
 public class Calculator1 {
 	public static void main (String[] arg) {
-		int a=5,b=7;
+		int a=12,b=7;
 		Calculator1 obj=new Calculator1();
-		obj.multi(a, b);
+		obj.multi(a,b);
 		obj.add(a, b);
 		obj.sub(a,b);
 		obj.div(a, b);
