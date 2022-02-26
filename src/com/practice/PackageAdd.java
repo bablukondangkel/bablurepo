@@ -3,9 +3,9 @@ package com.practice;
 public class PackageAdd{
 	public static void main(String[] args) {
 		PackageAdd obj=new PackageAdd();
-		obj.saisuman("bablu");
+		obj.saisuman("");
 		System.out.println("name");
-		obj.display("kondangkel");
+		obj.display("");
 		System.out.println("title");
 	}
 	

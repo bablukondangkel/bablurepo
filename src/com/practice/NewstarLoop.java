@@ -1,9 +1,9 @@
 package com.practice;
 
-public class MultiStar {
+public class NewstarLoop {
 	public static void main(String[] arg) {
-		for (int i = 5; i >= 1; i--) {
-			for (int j = 1; j <= i; j++) {
+		for(int j=5;j<=1;j--) {
+			for(int n=1;n<=j;n++) {
 				System.out.print("*");
 			}
 			System.out.println();
