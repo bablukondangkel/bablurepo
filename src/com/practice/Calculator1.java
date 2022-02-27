@@ -2,12 +2,12 @@ package com.practice;
 
 public class Calculator1 {
 	public static void main (String[] arg) {
-		int a=12,b=7;
+		int num=12,num1=7;
 		Calculator1 obj=new Calculator1();
-		obj.multi(a,b);
-		obj.add(a, b);
-		obj.sub(a,b);
-		obj.div(a, b);
+		obj.multi(num,num1);
+		obj.add(num, num1);
+		obj.sub(num,num1);
+		obj.div(num, num1);
 	}
 	public void multi(int x,int y) {	
 		int result = x*y;

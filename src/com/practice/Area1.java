@@ -4,7 +4,7 @@ public class Area1 {
 	public static void main (String[] arg) {
 		int side=5;
 		int length=6,breadth=7;
-		int radius=8;
+		int radius=16;
 		Area1 obj=new Area1();
 		obj.square(side);
 		obj.rectangle(length, breadth);
