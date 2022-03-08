@@ -9,7 +9,7 @@ public class IncreaseLoop {
 				
 			for(int i=1;i<=j;i++) {
 				
-				System.out.print("* ");
+				System.out.print("* " );
 				
 			}
 			System.out.println();
