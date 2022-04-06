@@ -2,7 +2,7 @@ package com.practice;
 
 public class ArrayPrimeofLargest {
 	public static void main(String[] arg) {
-	int[] ar=new int[] {2,3,6,7,11,21};
+	int[] ar=new int[] {1,2,3,6,7,11,21,41};
 	int max=0;
 	int num=0;
 	for(int i=0;i<ar.length;i++) {

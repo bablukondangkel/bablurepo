@@ -13,7 +13,6 @@ public class CalulateJava {
 	public void multi(int a,int b) {
 		int result=a*b;
 		System.out.println("multipication result is:" +result);
-		
 	}
 	public void add(int a,int b) {
 		int result=a+b;

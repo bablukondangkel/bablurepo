@@ -2,12 +2,11 @@ package com.practice;
 
 public class TrianglePattern {
 	public static void main(String[] arg) {
-		int i,j,x=7;
-		for(i=0;i<=x;i++) {
-			for(j=x-i;j>=1;j--) {
-				System.out.print( " "+" ");
+		for(int i=0;i<=7;i++) {
+			for(int j=7-i;j>=1;j--) {
+				System.out.print(" "+" ");
 			}
-			for(j=0;j<=i;j++) {
+			for(int j=0;j<=i;j++) {
 				System.out.print(  " "+"*"+" "+" ");
 	
 		}

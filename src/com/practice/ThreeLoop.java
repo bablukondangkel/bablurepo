@@ -8,7 +8,7 @@ public class ThreeLoop {
 			}
 			for (int j = 1; j <= i; j++) {
 
-				System.out.print(3);
+				System.out.print(6);
 			}
 			System.out.println(" ");
 		}

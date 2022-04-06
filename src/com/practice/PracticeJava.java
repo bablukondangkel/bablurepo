@@ -19,7 +19,7 @@ public class PracticeJava {
 	}
 	public void div(int a,int b) {
 		int result=a/b;
-		System.out.println("division resukt is:" +result);
+		System.out.println("division result is:" +result);
 		
 	}
 	public void sub(int a,int b) {
