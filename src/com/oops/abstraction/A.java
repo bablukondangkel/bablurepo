@@ -1,13 +1,32 @@
 package com.oops.abstraction;
 
 public class A extends Marks {
-	int Math=100;
-	int Hindi=100;
-	int English=100;
-	int Science=100;
+	int Math;
+	int Hindi;
+	int English;
+	int science;
+	int totalmark;
+	
+	public A() {
+		
+	}
+	
+	public A(int Math, int Hindi, int English, int science, int totalmark) {
+		this.Math = Math;
+		this.Hindi = Hindi;
+		this.English = science;
+		this.totalmark = totalmark;
+		this.science = science;
+	}
+	
+	
+	
 	public int getPercentage() {
-		System.out.println();
-		return 
+		int markobtained=Math+Hindi+English+science;
+		int per1=(markobtained * 100)/totalmark;
+		return per1;
+		
+
 		
 	}
 
