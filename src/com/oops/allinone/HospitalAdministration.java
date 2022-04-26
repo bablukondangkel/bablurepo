@@ -2,7 +2,7 @@ package com.oops.allinone;
 
 public abstract class HospitalAdministration {
 	
-	protected int noOfEmployees;
+	private int noOfEmployees;
 	private String nameOfHospital;
 	private int noOfStaff;
 	
@@ -11,10 +11,12 @@ public abstract class HospitalAdministration {
 		this.noOfEmployees = noOfEmployees;
 		this.nameOfHospital = nameOfHospital;
 		this.noOfStaff = noOfStaff;
-	}
-	public HospitalAdministration() {
 		
 	}
+	public void HospitalAdministration() {
+		
+	}
+	
 	
 	public abstract String departmentHead();
 	

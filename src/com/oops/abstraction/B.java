@@ -7,13 +7,13 @@ public class B extends Marks {
 	int math;
 	int totalmark;
 	
-// 	public B() {
-//		english = 78;
-//		hindi = 65;
-//		math = 39;
-//		computer = 25;
-//		totalmark = 400;
-//	}
+	public B(int english,int hindi,int math,int computer,int totalmark) {
+		this.english=english;
+		this.hindi=hindi;
+		this.math=math;
+		this.computer=computer;
+		this.totalmark=totalmark;
+		}
 
 	public int getPercentage() {
 		int markobtained = english + hindi + computer + math;

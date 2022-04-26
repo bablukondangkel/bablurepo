@@ -10,5 +10,5 @@ public class Neurology extends HospitalAdministration{
 		String deptHead = "babu garnaik";
 		return deptHead;
 	}
-	
 }
+
