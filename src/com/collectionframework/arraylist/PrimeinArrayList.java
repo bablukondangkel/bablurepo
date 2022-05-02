@@ -21,6 +21,7 @@ public class PrimeinArrayList {
 				System.out.println(list.get(i));
 
 			}
+
 		}
 	}
 }

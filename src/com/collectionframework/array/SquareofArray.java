@@ -7,7 +7,7 @@ public class SquareofArray {
 		int [] ar=new int [] {12,13,14,15,16};
 		for(int i=0; i<ar.length; i++) {
 			square = ar[i]*ar[i];
-			System.out.println(square);
+			System.out.print(" "+square+",");
 		}
 		
 	}

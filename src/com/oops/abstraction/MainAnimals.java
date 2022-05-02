@@ -5,7 +5,9 @@ public class MainAnimals {
 	public static void main(String[] args) {
 		Cats obj1=new Cats();
 		Cats obj2=new Cats();
-		Cats obj3=new Cats();
+		Cats obj3=new Cats();		
 		obj3.cats();
+		obj1.dogs();
+		obj2.cats();
 	}
 }

@@ -2,7 +2,7 @@ package com.practice;
 
 public class ArrayPregent {
 	public static void main(String[] arg) {
-		int j=78;
+		int j=2;
 		boolean flag = false;
 		int[] ar=new int[] {2,5,8,9,12};
 		for(int i=0;i<ar.length;i++) {

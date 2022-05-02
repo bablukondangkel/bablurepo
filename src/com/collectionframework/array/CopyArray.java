@@ -10,8 +10,8 @@ public class CopyArray {
 			ar2[i] = ar1[i];
 		}
 		
-		for(int i=0; i<ar2.length; i++) {
-			System.out.print(ar2[i] + " ");
+		for(int j=0; j<ar2.length; j++) {
+			System.out.print(ar2[j] + " ");
 		}
 
 }

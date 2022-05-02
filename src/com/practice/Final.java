@@ -7,7 +7,7 @@ public class Final {
 		
 		String mobile="sumsung";
 		String mobile2="micromax";
-		System.out.println("print a:" +mobile+" " +mobile2);
+		System.out.println("print a:" +mobile);
 	}
 	
 		
