@@ -4,8 +4,8 @@ public class InsertIntoArray {
 
 	public static void main(String[] args) {
 		int x=40;
-		int place=4;
-		int[] ar1=new int[] {10,20,30,50,60};
+		int place=7;
+		int[] ar1=new int[] {10,20,30,50,60,70};
 		int[] ar2=new int[ar1.length+1];
 		
 		ar2[place-1] = x;

@@ -2,9 +2,9 @@ package com.oops.allinone;
 
 public abstract class HospitalAdministration {
 	
-	private int noOfEmployees;
-	private String nameOfHospital;
-	private int noOfStaff;
+	public int noOfEmployees;
+	public String nameOfHospital;
+	public int noOfStaff;
 	
 		
 	public HospitalAdministration(int noOfEmployees, String nameOfHospital, int noOfStaff) {
@@ -13,9 +13,8 @@ public abstract class HospitalAdministration {
 		this.noOfStaff = noOfStaff;
 		
 	}
-	public void HospitalAdministration() {
+	//public void HospitalAdministration() {
 		
-	}
 	
 	
 	public abstract String departmentHead();

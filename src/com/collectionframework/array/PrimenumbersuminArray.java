@@ -13,8 +13,8 @@ public class PrimenumbersuminArray {
 	}
 		}
 		
-		if(count<=2) {
-			sum=ar[i]+sum;
+			if(count<=2) {
+		//	sum=ar[i]+sum;
 	}		
 		}
 		System.out.println(sum);

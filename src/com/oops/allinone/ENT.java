@@ -11,7 +11,7 @@ public class ENT extends HospitalAdministration{
 		String deptHead = "bablu kondangkel";
 		return deptHead;
 	}
-	private int NoOfEmployees() {
+	public int NoOfEmployees() {
 		int f=10;
 		return f;
 		

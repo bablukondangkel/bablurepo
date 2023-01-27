@@ -1,6 +1,6 @@
 package com.oops.abstraction;
 
-public class Cats extends Amimals {
+public class Cats extends Animals {
 	public void cats() {
 		System.out.println("Cats meow");
 		

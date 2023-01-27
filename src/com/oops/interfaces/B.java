@@ -5,9 +5,13 @@ public class B implements A{
 	public void m1() {
 		System.out.println("one");
 	}
+	public void m2() {
+		System.out.println("Two");
+		
+	}
 public static void main(String[] args) {
-	A a=new B();
-	a.m1();
-	System.out.println(a.x);
+		A a=new B();
+		a.m1();
+		a.m2();
 }	
 }

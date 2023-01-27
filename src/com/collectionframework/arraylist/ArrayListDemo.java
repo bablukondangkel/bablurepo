@@ -10,11 +10,9 @@ public class ArrayListDemo {
 		list.add(10); 
 		list.add(20); 
 		list.add(30);
-		//System.out.println(list.size());
 		
 		for(int i = 0; i<list.size(); i++) {
-			System.out.println(list.get(i));
+			System.out.print(list.get(i)+" ");
 		}
 	}
-
 }

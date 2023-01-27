@@ -4,7 +4,7 @@ public class AllprimeNumInArray {
 
 	public static void main(String[] args) {
 
-		int[] ar1 = new int[] { 2,3, 6, 4, 7, 5 };
+		int[] ar1 = new int[] { 14,13,2,3, 6, 4, 7, 5 ,11};
 		for (int i = 0; i < ar1.length; i++) {
 			int count = 0;
 			for (int j = 1; j <= ar1[i]; j++) {
@@ -13,7 +13,7 @@ public class AllprimeNumInArray {
 				}
 			}
 			if(count<=2) {
-				System.out.println(ar1[i]);
+				System.out.print(ar1[i]+" ");
 			}
 		}
 

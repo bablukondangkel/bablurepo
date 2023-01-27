@@ -7,7 +7,7 @@ public class EvenNumbersInArrayList {
 
 	public static void main(String[] args) {
 
-		ArrayList<Integer> list =new ArrayList<>(Arrays.asList(12, 11, 5 , 7 ,9, 10, 4, 8));
+		ArrayList<Integer> list =new ArrayList<Integer>(Arrays.asList(12, 11, 5 , 7 ,9, 10, 4, 8));
 		
 		for(int i = 0; i<list.size(); i++) {
 			if(list.get(i)%2 ==0) {

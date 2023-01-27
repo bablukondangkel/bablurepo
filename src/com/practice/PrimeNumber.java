@@ -2,7 +2,7 @@ package com.practice;
 
 public class PrimeNumber {
 	public static void main(String[] arg) {
-		int num=7;
+		int num=5;
 		int count=0;
 		for(int i=1;i<=num;i++) {
 			if(num%i==0) {
@@ -10,10 +10,10 @@ public class PrimeNumber {
 			}
 		}
 		if(count<=2) {
-			System.out.println("number is prime");
+			System.out.println(num+":is prime number");
 			
 		}else{
-			System.out.println("number is not prime");
+			System.out.println(num+":is not prime number");
 		}
 	} 
 	}

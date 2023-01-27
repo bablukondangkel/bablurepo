@@ -6,7 +6,7 @@ public class StarForLoop {
 			for(int j=10;j>=i;j--) {
 				System.out.print(" *");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 		for(int i=10;i>=1;i--) {
 			for(int j=10;j>=i;j--) {
@@ -15,11 +15,6 @@ public class StarForLoop {
 			System.out.println();
 
 }
-		for(int i=10;i>=1;i--) {
-			for(int j=10;j>=i;j--) {
-				System.out.print(" *");
-	}
-			System.out.println();
-}
+		
 }
 }

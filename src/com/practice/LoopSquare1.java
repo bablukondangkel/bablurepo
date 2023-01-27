@@ -2,7 +2,7 @@ package com.practice;
 
 public class LoopSquare1 {
 	public static void main(String[] arg) {
-		int num=7;
+		int num=4;
 		boolean flag = false;
 		for(int i=1;i<=num;i++) {
 			if(i*i==num){

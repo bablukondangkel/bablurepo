@@ -1,6 +1,6 @@
 package com.oops;
 
-public class MethodOverloading {
+public class MethodOverloading  {
 	
 	public void display() {
 		System.out.println("No argument");
